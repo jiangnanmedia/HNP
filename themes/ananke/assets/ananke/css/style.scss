@@ -1,0 +1,136 @@
+// 变量
+
+$color-primary:   #FF6600;   // HNP Logo 橙
+
+$color-bg-dark:   #2D3240;   // 深蓝灰背景
+
+$color-light:     #F5F5F5;   // 浅灰
+
+$color-text:      #333333;   // 正文深灰
+
+$color-white:     #FFFFFF;   // 纯白
+
+
+
+$font-sans:       'Open Sans', sans-serif;
+
+
+
+// 全局
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+
+  font-family: $font-sans;
+
+  color: $color-text;
+
+  background: $color-light;
+
+  line-height:1.6;
+
+}
+
+
+
+// 链接 & 按钮
+
+a, .btn {
+
+  color: $color-white;
+
+  text-decoration: none;
+
+  &:hover { opacity: .8; }
+
+}
+
+.btn {
+
+  background: $color-primary;
+
+  display: inline-block;
+
+  padding: .6rem 1.4rem;
+
+  border-radius: 4px;
+
+  font-weight:600;
+
+}
+
+
+
+// 头部
+
+header {
+
+  background: $color-bg-dark;
+
+  padding: 1rem 2rem;
+
+  .logo { height: 50px; }
+
+  nav {
+
+    display: inline-block;
+
+    float: right;
+
+    a { margin-left: 1.5rem; color: $color-white; font-weight:500; }
+
+  }
+
+}
+
+
+
+// 首页 Hero 区
+
+.hero {
+
+  background: url('/images/hero-bg.jpg') center/cover no-repeat;
+
+  position: relative;
+
+  color: $color-white;
+
+  text-align: center;
+
+  padding: 6rem 2rem;
+
+  h1 { font-size: 2.5rem; margin-bottom: 1rem; }
+
+}
+
+
+
+// 主要内容区
+
+section { padding: 4rem 2rem; }
+
+section.light { background: $color-light; }
+
+section.dark  { background: $color-bg-dark; color: $color-white; }
+
+
+
+// 页脚
+
+footer {
+
+  background: $color-bg-dark;
+
+  color: $color-light;
+
+  text-align: center;
+
+  padding: 2rem;
+
+  p { margin:0.5rem 0; }
+
+}
+
+
+
