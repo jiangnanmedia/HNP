@@ -1,0 +1,34 @@
+
+baseURL = "/"
+languageCode = "en-us"
+title = "Calgary Renovation Experts"
+theme = "ananke"
+
+[params]
+  description = "One-stop residential and commercial renovation services in Calgary."
+  author = "Calgary Renovation Experts"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "services"
+    name = "Services"
+    url = "/services/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About Us"
+    url = "/about/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
